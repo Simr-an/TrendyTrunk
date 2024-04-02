@@ -1,0 +1,236 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+ /* Logo */
+.logo {
+    height: 100px;
+    width: auto;
+  }
+
+  /* Navigation Bar */
+  .navbar {
+    background-color: #343a40; /* Dark gray */
+    color: #ffffff; /* White */
+    padding: 10px 0;
+  }
+  
+  .navbar-brand img {
+    height: 10px; 
+    margin-right: 2px; 
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff; /* White */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #ffffff; /* White */
+  }
+  
+  /* Home Section */
+.home {
+    background-image: url('bgg.png'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff; 
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555; /* Dark gray */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #333; /* Darken on hover */
+  }  
+
+ /* About Section */
+.about {
+    background-color: #fce4ec; /* Pastel pink */
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray */
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555; /* Dark gray */
+    margin-bottom: 20px;
+  }
+  
+  .image-gallery {
+    margin-top: 40px;
+  }
+  
+  .image-gallery img {
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 50%;
+  }
+  
+  /* Projects Section */
+.projects {
+    background-color: #fff7f9; /* Light pink */
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray */
+  }
+  
+  .projects p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555; /* Dark gray */
+    margin-bottom: 20px;
+  }
+  
+  .image-gallery {
+    margin-top: 40px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the images horizontally */
+    flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+  }
+  
+  .image-gallery img {
+    width: 200px;
+    margin: 0 10px;
+  }
+  
+  /* Contact Section */
+.contact {
+    background-color: #f9e5e2; /* Light pink */
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray */
+  }
+  
+  .contact p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555; /* Dark gray */
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-details {
+    margin-right: 40px;
+  }
+  
+  .contact-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details p {
+    font-size: 1.2rem;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media-icons a {
+    margin: 0 10px;
+  }
+  
+  /* Social Media Icons */
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    width: 40px; 
+    height: 40px;
+    margin: 0 10px;
+  }
+  
+  
+  /* Footer */
+  .footer {
+    background-color: #343a40; /* Dark gray */
+    color: #ffffff; /* White */
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  
+  
